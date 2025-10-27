@@ -1,0 +1,29 @@
+﻿# === .gitignore ===
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.db
+
+# Virtual environments
+venv/
+.env/
+
+# Build / Dist
+build/
+dist/
+*.spec
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports and logs
+reports/
+logs/
