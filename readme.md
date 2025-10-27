@@ -5,7 +5,7 @@
 **Version:** v0.1 â€” Core Framework
 
 ---
-## ðŸ§  Overview
+## Overview
 FixPoint is a diagnostic and repair engine designed to monitor and restore network and container health across the Data Extremes ecosystem. It connects to Proxmox, TrueNAS, NPM, and Cloudflare to detect issues and automate recovery tasks.
 
 ### Features
@@ -16,7 +16,7 @@ FixPoint is a diagnostic and repair engine designed to monitor and restore netwo
 - Ready for PyQt6 GUI integration
 
 ---
-## âš™ï¸ Installation
+## Installation
 ```bash
 git clone https://github.com/<yourusername>/FixPoint.git
 cd FixPoint
@@ -25,7 +25,7 @@ uvicorn backend.main:app --reload
 ```
 
 ---
-## ðŸ§© Project Structure
+##b Project Structure
 ```
 backend/
   â”œâ”€â”€ main.py
@@ -37,13 +37,14 @@ data/
 ```
 
 ---
-## ðŸ”— Future Integration
+## Future Integration
 FixPoint interfaces with the **Axiom|Spectre ACL System** for unified command and status control across Portal, PacketWatch, and Mobius.
 
 ---
-## ðŸ§  Axiom|Spectre Mark
+##  Axiom|Spectre Mark
 ```
 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     [Axiom|Spectre Systems v1.0]
 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 ```
+
